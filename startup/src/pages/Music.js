@@ -1,9 +1,11 @@
 import React from 'react'
+import ShrtcodeApp from '../shorten/ShrtcodeApp'
+import './css/shrt.css'
 
 function Music() {
     return (
-        <div>
-            This is Music
+        <div className='shrt_app'>
+           <ShrtcodeApp/>
         </div>
     )
 }

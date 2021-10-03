@@ -1,10 +1,12 @@
 import React from 'react'
+import ShrtcodeApp from '../shorten/ShrtcodeApp'
+import './css/shrt.css'
 
 function Gamse() {
     return (
-        <div>
-            This is Game
-        </div>
+        <div className='shrt_app'>
+        <ShrtcodeApp/>
+         </div>
     )
 }
 
